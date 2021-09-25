@@ -8,10 +8,10 @@ What I Using For Creating This Site
 “*” CSS
 
 Here Is My Site Details What We Can
-“*” We Can Got Super Hero In Card
-“*” We Can Show 5 Types Data Any Super Hero
-“*” We Can Add Them In Cart or List
-“*” We Can Give Also Their Numeric Value
+** We Can Got Super Hero In Card
+** We Can Show 5 Types Data Any Super Hero
+** We Can Add Them In Cart or List
+** We Can Give Also Their Numeric Value
 
 My Deploy Platform
-“*” Netlify
+** Netlify
