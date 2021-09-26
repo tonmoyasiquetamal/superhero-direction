@@ -11,6 +11,8 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
+      
+      {/* The Component Own Tag Of Activate Data Of Site */}
       <Header></Header>
       <User></User>
       <Footer></Footer>

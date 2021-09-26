@@ -1,111 +1,121 @@
-
-
 [
     {
         "id": 1,
         "name": "Jhankar Mahbub",
+        "company": "Programming Hero",
         "gender": "Male",
         "email": "jhankarmahbub@gmail.com",
-        "phone": 12,
+        "phone": "01779258741",
         "salary": 5000,
         "img": "https://i.ibb.co/XyJWmcJ/jhankar-vai.jpg"
     },
     {
         "id": 2,
         "name": "Sumit Saha",
+        "company": "Learn With Sumit",
         "gender": "Male",
         "email": "sumitsaha@yahoo.com",
-        "phone": 12,
+        "phone": "01715070624",
         "salary": 5000,
         "img": "https://i.ibb.co/PjJZckd/sumit-vai.jpg"
     },
     {
         "id": 3,
         "name": "Zulkarnaine Mahmud",
+        "company": "Google Inc.",
         "gender": "Male",
         "email": "zulkarnaine.m@gmail.com",
-        "phone": 12,
+        "phone": "01882170610",
         "salary": 5000,
         "img": "https://i.ibb.co/f8hd1NB/zulkarnaine-vai.jpg"
     },
     {
         "id": 4,
         "name": "Maruf Ahmed Shuvo",
+        "company": "Learn With Shuvo",
         "gender": "Male",
         "email": "mhshuvowd@gmail.com",
-        "phone": 12,
+        "phone": "01892477920",
         "salary": 4800,
         "img": "https://i.ibb.co/z6cYP45/mas.jpg"
     },
     {
         "id": 5,
         "name": "Foysal Khandaker Joy",
+        "company": "True Lancer",
         "gender": "Male",
         "email": "foysalkhandaker@outlook.com",
-        "phone": 12,
+        "phone": "01924823426",
         "salary": 4600,
         "img": "https://i.ibb.co/445yWGs/fkj.jpg"
     },
     {
         "id": 6,
         "name": "Mohsin Khan",
+        "company": "True Lancer",
         "gender": "Male",
         "email": "mohsinprogrammer@hotmail.com",
-        "phone": 12,
+        "phone": "01512580476",
         "salary": 4500,
         "img": "https://i.ibb.co/Y7TCwXL/mk.jpg"
     },
     {
         "id": 7,
         "name": "Sarwar Mahin",
+        "company": "True Lancer",
         "gender": "Male",
         "email": "mahinpg@gmail.com",
-        "phone": 12,
+        "phone": "0162428297",
         "salary": 4000,
         "img": "https://i.ibb.co/ZXGDbB4/smm.jpg"
     },
     {
         "id": 8,
         "name": "Md. Nazmul Hasan Sourab",
+        "company": "IT BD Inc.",
         "gender": "Male",
         "email": "futurewd1@outlook.com",
-        "phone": 12,
+        "phone": "01888847309",
         "salary": 3000,
         "img": "https://i.ibb.co/c1cWDKt/mdnhs.jpg"
     },
     {
         "id": 9,
         "name": "Tonmoy Asique Tamal",
+        "company": "BCS Computer City",
         "gender": "Male",
         "email": "futurewd2@yahoo.com",
-        "phone": 12,
+        "phone": "0162759420",
         "salary": 3000,
         "img": "https://i.ibb.co/f86YVyq/tonmoy-cropped.png"
     },
     {
         "id": 10,
         "name": "Md. Pias Uddin",
+        "company": "Thousand Fix Ltd.",
         "gender": "Male",
         "email": "futurewd3@yahoo.com",
-        "phone": 12,
+        "phone": "01924283426",
         "salary": 3000,
         "img": "https://i.ibb.co/Jx2Cfh9/piu.jpg"
     },
     {
         "id": 11,
         "name": "Joti Afsana",
+        "company": "Dhaka IT Institute",
         "gender": "Female",
         "email": "futurewd4@outlook.com",
-        "phone": 12,
+        "phone": "01915070604",
         "salary": 3000,
         "img": "https://i.ibb.co/V22dsRb/ja.jpg"
     },
     {
         "id": 12,
         "name": "Md. Meheady Hasan",
+        "company": "Recovery IT Ltd.",
         "gender": "Male",
         "email": "hmmehedi@gmail.com",
-        "phone": 12,
+        "phone": "01771392471",
         "salary": 3000,
         "img": "https://i.ibb.co/0Gbgccn/mmh.jpg"
     }

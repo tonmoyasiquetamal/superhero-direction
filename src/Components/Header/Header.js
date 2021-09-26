@@ -7,7 +7,9 @@ const Header = () => {
         /*<----- Header Info Are Here ----->*/
         <div className="header-container">
             <div className="header-programmers-club">
-                <h2 className= "fw-bolder text-warning">The Programmers Club</h2>
+                <h2 className= "fw-bolder text-warning fs-1">The Programmers Club</h2>
+                <br />
+                <h4 className= "fw-bolder text-danger ">চালাক থিওরি 🔥🔥🔥 দুনিয়াতে ভালো মানুষকে কেউ দাম দেয় না---Jhankar Mahbub </h4>
                 <br />
                 <h4>Total Budget: 45000 USD</h4>
             </div>

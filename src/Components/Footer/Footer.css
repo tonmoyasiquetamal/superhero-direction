@@ -4,10 +4,10 @@
     background-color: #26C6DA;
     color: #fff;
     text-align: center;
-    position: fixed;
+    
 }
 .footer p{
     margin: 0px;
-    color: #F06292;
+    color: rgb(19, 18, 18);
 }
 /*<-----Footer.css Are Ending Here */

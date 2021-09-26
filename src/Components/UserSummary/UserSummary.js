@@ -8,7 +8,7 @@ import { faHandHoldingUsd } from '@fortawesome/free-solid-svg-icons';
 
 const UserSummary = (props) => {
     /*<----- Destructuring  For Generate Dynamically JSON Data For Each Programmers ----->*/
-    const { img, name, gender, email, phone, salary } = props.user;
+    const { img, name,company, gender, email, phone, salary } = props.user;
     return (
         <div className="user-summary">
             <div className="container">
@@ -20,11 +20,12 @@ const UserSummary = (props) => {
                             <img className="img" src={img} alt="..." />
                         </div>
                         <div className="card-body">
-                            <h5 className="card-title fw-bolder">{name}</h5>
-                            <p>Gender : {gender}</p>
+                            <h5 className="card-title fw-bolder fs-8 text-success">Name: {name}</h5>
+                            <p className = "fw-bolder">Company: {company}</p>
+                            <p className = "fw-bold">Gender : {gender}</p>
                             <p className = "fw-bolder"> <small> Email : {email}</small></p>
-                            <p>Phone No : {phone}</p>
-                            <p>Salary : {salary} $USD </p>
+                            <p className = "fw-bold">Phone No : {phone}</p>
+                            <p className = "fw-bold">Salary : {salary} $USD </p>
 
                             {/* Button With Onclick Event Handler Dynamic & Icon Are Added */}
                             <button className="user-btn" onClick={() => props.handleUserAdded(props.user)}><FontAwesomeIcon icon={faHandHoldingUsd} /> Pay Salary</button>
