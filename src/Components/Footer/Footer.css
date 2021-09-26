@@ -4,6 +4,7 @@
     background-color: #26C6DA;
     color: #fff;
     text-align: center;
+    position: fixed;
 }
 .footer p{
     margin: 0px;
