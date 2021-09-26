@@ -19,7 +19,7 @@ const User = () => {
     const handleUserAdded = (user) => {
         const existId = cart.find(addedId => addedId.id === user.id);
         if (existId) {
-            alert("This person already added!!");
+            alert("This Programmer Allready Included In Your List😍😎");
         }
         else {
             const newCart = [...cart, user];
