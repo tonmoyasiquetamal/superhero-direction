@@ -1,3 +1,4 @@
+/*<-----UserSummary.JS Are Stating Here*/
 import React from 'react';
 import './UserSummary.css';
 
@@ -37,3 +38,4 @@ const UserSummary = (props) => {
 };
 
 export default UserSummary;
+/*<-----UserSummary.JS Are Ending Here*/

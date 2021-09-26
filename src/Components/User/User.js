@@ -1,3 +1,4 @@
+/*<-----User.JS Are Stating Here With Connected User Summary & Cart */
 import React, { useState, useEffect } from 'react';
 import './User.css';
 import UserSummary from '../UserSummary/UserSummary';
@@ -46,3 +47,4 @@ const User = () => {
 };
 
 export default User;
+/*<-----User.JS Are Ending Here With Connected User Summary & Cart */
