@@ -20,7 +20,7 @@ const UserSummary = (props) => {
                             <img className="img" src={img} alt="..." />
                         </div>
                         <div className="card-body">
-                            <h5 className="card-title fw-bolder fs-8 text-success">Name: {name}</h5>
+                            <h5 className="card-title fw-bolder fs-9 text-success">Name: {name}</h5>
                             <p className = "fw-bolder">Company: {company}</p>
                             <p className = "fw-bold">Gender : {gender}</p>
                             <p className = "fw-bolder"> <small> Email : {email}</small></p>
