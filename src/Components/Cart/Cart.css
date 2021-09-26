@@ -1,21 +1,28 @@
+/* Cart Are Sizing From Here */
 .cart{
     padding-top: 10px;
     position: fixed;
     z-index: 1;
 }
+
+/* Cart Info Color  */
 .cart-info{
     display: flex;
     align-items: center;
     padding:10px 2px;
-    background-color: #3578E5;
+    background-color: #F06292; 
     color: #fff;
     margin-bottom: 10px;
     border-radius:3px;
 }
+
+/* Cart Image Sizing */
 .cart-img{
     width: 15%;
     margin: 0px 5px;
 }
+
+/* Cart Info Paragraph */
 .cart-info p{
     margin: 0px;
 }

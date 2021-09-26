@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import './User.css';
 import UserSummary from '../UserSummary/UserSummary';
 import Cart from '../Cart/Cart';
@@ -7,12 +7,14 @@ const User = () => {
     const [users, setUsers] = useState([]);
     const [cart, setCart] = useState([])
 
-    useEffect( () => {
-        fetch('./users.JSON')
-        .then(res => res.json())
-        .then(data => setUsers(data))
+    /*<----- Using  Use-Effect Function Here With Custom JSON Data Load ----->*/
+    useEffect(() => {
+        fetch('./programmer.JSON')
+            .then(res => res.json())
+            .then(data => setUsers(data))
     }, [])
 
+    /*<----- Handling For Same User ----->*/
     const handleUserAdded = (user) => {
         const existId = cart.find(addedId => addedId.id === user.id);
         if (existId) {
@@ -27,6 +29,7 @@ const User = () => {
         <div className="user-container">
             <div className="user">
                 {
+                    /*<----- Users Are Mapping & Key Using For Stop Showing Error ----->*/
                     users.map(user => <UserSummary
                         user={user}
                         key={user.id}
@@ -35,6 +38,7 @@ const User = () => {
                 }
             </div>
             <div>
+                {/* Cart Are Dynamically Show Here */}
                 <Cart cart={cart}></Cart>
             </div>
         </div>

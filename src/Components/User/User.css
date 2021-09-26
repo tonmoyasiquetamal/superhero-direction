@@ -1,8 +1,11 @@
+/* Containing The User's Style */
 .user-container{
     display: grid;
     grid-template-columns: 3fr 1fr;
     padding-top: 230px;
 }
+
+/* User's Card Style Are Grid */
 .user{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
