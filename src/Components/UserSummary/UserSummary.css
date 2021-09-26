@@ -1,4 +1,14 @@
 /* User Image Sizing & Styling From Here */
+.user-summary .card{
+    background: hsl(207, 93%, 73%);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10.5px ) saturate(180%);
+-webkit-backdrop-filter: blur( 10.5px ) saturate(180%);
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
 .user-img{
     width: 50%;
     margin: 0 auto;
@@ -13,8 +23,8 @@
 
 /* Single Card Styled */
 .single-card:hover{
-    background-color: #80CBC4;
-    /* background-color: #B2DFDB; */
+    /* background-color: #F06292; */
+    background-color: #FFAB91;
 }
 
 
