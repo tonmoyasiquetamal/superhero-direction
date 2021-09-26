@@ -6,7 +6,7 @@ backdrop-filter: blur( 10.5px ) saturate(180%);
 -webkit-backdrop-filter: blur( 10.5px ) saturate(180%);
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
-
+height: 80%;
 }
 
 .user-img{

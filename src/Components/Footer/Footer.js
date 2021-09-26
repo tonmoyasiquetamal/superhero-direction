@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         // <----- Footer Letter with Copyright Icon ----->
         <div className="footer">
-            <p className="fw-bold fs-5">CopyRight <FontAwesomeIcon icon = {faCopyright}/> 2021 | All Rights Reserved Tonmoy Asique Tamal</p>
+            <p className="fw-bold fs-5 mt-auto">CopyRight <FontAwesomeIcon icon = {faCopyright}/> 2021 | All Rights Reserved Tonmoy Asique Tamal</p>
            
         </div>
     );
